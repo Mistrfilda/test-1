@@ -1,0 +1,20 @@
+{
+    "name": "filip/test-1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "filip",
+            "email": "filda.kuchar@seznam.cz"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "scripts": {
+        "sale-prediction": "php src/Task1/index.php",
+        "numbers": "php src/Task2/index.php"
+    }
+}
